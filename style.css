@@ -1,0 +1,118 @@
+body {
+  background-image: url(joebidenchair.jpg);
+  background-repeat: no-repeat;
+  background-size: 120% 145%;
+  background-position: center;
+  animation-name: background;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: 0;
+}
+
+@media screen and (max-width: 1460px) {
+  body {
+    background-image: url(joebidenchair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: none;
+  }
+}
+
+.img-fluid {
+  width: 180px;
+}
+
+.container-fluid {
+  background-color: #d2b48c;
+}
+.nav-item {
+  font-family: "neighbor", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+}
+.navbar-text {
+  font-family: "neighbor", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+}
+strong {
+  font-weight: bold;
+}
+
+.white {
+  height: 800px;
+  background-color: #ffffff;
+  margin-top: 600px;
+  margin-bottom: 200px;
+  padding-top: 70px;
+}
+
+h3 {
+  margin-top: 100px;
+  color: #d2b48c;
+  font-family: "thirsty-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+h2 {
+  text-align: center;
+  font-family: "margot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 5px #d2b48c;
+}
+
+.typewriter {
+  width: 21.5ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #212121;
+  animation: cursor 4s step-start infinite, text 5s steps(25) alternate infinite;
+  text-align: center;
+  height: 255px;
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #212121;
+  }
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 73ch;
+  }
+}
+.card {
+  width: 400px;
+  border: solid #d2b48c 2px;
+  box-shadow: 4px 4px 4px black;
+}
+.nav-item2 {
+  font-family: "neighbor", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+}
+
+@keyframes background {
+  from {
+    background-size: 120% 145%;
+  }
+  to {
+    background-size: 100% 125%;
+  }
+}
