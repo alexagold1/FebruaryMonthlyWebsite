@@ -29,18 +29,7 @@ body {
 .container-fluid {
   background-color: #d2b48c;
 }
-.nav-item {
-  font-family: "neighbor", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 25px;
-}
-.navbar-text {
-  font-family: "neighbor", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 25px;
-}
+
 strong {
   font-weight: bold;
 }
@@ -53,14 +42,15 @@ strong {
   padding-top: 70px;
 }
 
-h3 {
-  margin-top: 100px;
-  color: #d2b48c;
+h4 {
+  margin-top: 200px;
+  color: navy;
   font-family: "thirsty-script", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
-  font-size: 90px;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  font-size: 30px;
+  text-shadow: 4px 1px 2px rgb(255, 255, 255);
+  margin-left: 1500px;
 }
 
 h2 {
@@ -69,16 +59,6 @@ h2 {
   font-weight: 400;
   font-style: normal;
   text-shadow: 2px 2px 5px #d2b48c;
-}
-
-.typewriter {
-  width: 21.5ch;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 4px solid #212121;
-  animation: cursor 4s step-start infinite, text 5s steps(25) alternate infinite;
-  text-align: center;
-  height: 255px;
 }
 
 @keyframes cursor {
@@ -100,12 +80,6 @@ h2 {
   width: 400px;
   border: solid #d2b48c 2px;
   box-shadow: 4px 4px 4px black;
-}
-.nav-item2 {
-  font-family: "neighbor", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 25px;
 }
 
 @keyframes background {
