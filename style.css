@@ -42,15 +42,28 @@ strong {
   padding-top: 70px;
 }
 
-h4 {
-  margin-top: 200px;
-  color: navy;
-  font-family: "thirsty-script", sans-serif;
-  font-weight: 200;
+h1 {
+  font-family: "samantha-upright", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
   font-style: normal;
-  font-size: 30px;
-  text-shadow: 4px 1px 2px rgb(255, 255, 255);
-  margin-left: 1500px;
+  text-align: center;
+  color: white;
+  margin-top: 500px;
+  animation-duration: 3s;
+  animation-name: slide-in;
+}
+h4 {
+  margin-top: 260px;
+  color: white;
+  font-family: "samantha-upright", sans-serif;
+  font-weight: 200px;
+  font-style: normal;
+  font-size: 100px;
+  text-shadow: 3px 2px 5px rgb(65, 22, 255);
+  transform: scale(0.94);
+  animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  text-align: center;
 }
 
 h2 {
@@ -61,21 +74,6 @@ h2 {
   text-shadow: 2px 2px 5px #d2b48c;
 }
 
-@keyframes cursor {
-  0%,
-  100% {
-    border-color: #212121;
-  }
-}
-
-@keyframes text {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 73ch;
-  }
-}
 .card {
   width: 400px;
   border: solid #d2b48c 2px;
@@ -88,5 +86,48 @@ h2 {
   }
   to {
     background-size: 100% 125%;
+  }
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 1s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 1s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 1s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
   }
 }
