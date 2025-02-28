@@ -1,10 +1,7 @@
 body {
-  background-image: url(/imgs/joebidenearlylife.webp);
+  background: url(imgs/joebidenforpresident.webp);
   background-repeat: no-repeat;
-  background-size: cover;
-}
-.card {
-  margin-top: 300px;
+  background-size: 100%;
 }
 h1 {
   margin-top: 200px;
